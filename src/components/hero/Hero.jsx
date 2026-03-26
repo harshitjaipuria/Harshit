@@ -8,12 +8,9 @@ import Image from "next/image";
 const heroContent = {
   heroImage: "/assets/img/hero/dark.jpg",
   heroMobileImage: heroImgMobile,
-  heroTitleName: "steve milner",
-  heroDesignation: "web designer",
-  heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
+  heroTitleName: "Harshit Jaipuria",
+  heroDesignation: "Software Developer",
+  heroDescriptions: `I am a Computer Science student and full-stack developer focused on building scalable, user-centric applications and AI-powered solutions. With experience in modern web technologies and machine learning systems, I am passionate about creating impactful software that improves efficiency and user experience.`,
   heroBtn: "more about me",
 };
 

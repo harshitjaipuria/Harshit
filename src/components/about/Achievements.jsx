@@ -2,8 +2,8 @@ import React from "react";
 
 const achievementsContent = [
   { title: "100", subTitle1: "Leetcode", subTitle2: "Problems" },
-  { title: "10", subTitle1: "completed", subTitle2: "projects" },
-  { title: "81", subTitle1: "Happy", subTitle2: "customers" },
+  { title: "10", subTitle1: "Completed", subTitle2: "projects" },
+  { title: "5", subTitle1: "Certifications", subTitle2: "Badges" },
   { title: "75", subTitle1: "GCP", subTitle2: "Badges" },
 ];
 

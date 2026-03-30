@@ -2,25 +2,22 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "2015",
-    degree: "ENGINEERING DEGREE",
-    institute: "OXFORD UNIVERSITY",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    year: "2028",
+    degree: "B.TECH",
+    institute: "GLA University Mathura",
+    details: `Computer Science and Engineering (CSE) Specialization in Artificial Intelligence and Data Science`,
   },
   {
-    year: "2012",
-    degree: "MASTER DEGREE",
-    institute: "KIEV UNIVERSITY",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    year: "2024",
+    degree: "12th Grade",
+    institute: "Sunbeam Academy",
+    details: `Central Board of Secondary Education (CBSE)`,
   },
   {
-    year: "2009",
-    degree: "BACHELOR DEGREE ",
-    institute: "TUNIS HIGH SCHOOL",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    year: "2021",
+    degree: "High School",
+    institute: "William Henry Smith Memorial School",
+    details: `Indian Certificate of Secondary Education (ICSE)`,
   },
 ];
 

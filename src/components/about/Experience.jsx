@@ -2,25 +2,22 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   2018 - Present",
-    position: " Web Developer",
-    compnayName: "Envato",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    year: "   May, 2025 - July, 2025",
+    position: " Full Stack Developer Intern",
+    compnayName: "Lemin AI",
+    details: `Contributed as a Full Stack Developer Intern at Lemin AI in the development of scalable web applications. Built and optimized frontend and backend systems using modern technologies, ensuring seamless performance, efficient APIs, and improved user experience.`,
   },
   {
-    year: "2013 - 2018",
-    position: " UI/UX Designer",
-    compnayName: "Themeforest",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    year: "December 2024 - May 2025",
+    position: "Usability Analyst",
+    compnayName: "UserTesting Inc",
+    details: `Performed usability testing on websites and mobile apps, collecting qualitative feedback to identify UX issues and suggest improvements. Recorded and analyzed user interactions to help clients enhance product usability and user satisfaction.`,
   },
   {
-    year: "2005 - 2013",
-    position: "Consultant",
-    compnayName: "Videohive",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    year: "2024 - 2026",
+    position: "Head - Netwokring & Outreach",
+    compnayName: "Entrepreneurship Cell - GLA University",
+    details: `Led outreach and partnership initiatives for the Entrepreneurship Cell, building relationships with startups, investors, and industry partners. Organized events, workshops, and competitions to foster an innovative ecosystem and support student ventures.`,
   },
 ];
 

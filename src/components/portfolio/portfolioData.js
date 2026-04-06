@@ -11,15 +11,15 @@ import Image9 from "../../../public/assets/img/portfolio/project-9.jpg";
 const PortfolioData = [
   {
     id: 1,
-    type: "",
+    type: "CVIS - AI based Digital Attendance System",
     image: Image1,
-    tag: ["mockup"],
+    tag: ["Machine Learning"],
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "Website",
-        client: "Envato",
-        language: "HTML, CSS, Javascript",
+        project: "CVIS - AI based Digital Attendance System",
+        client: "Self-Project",
+        language: "Python, React.js, Node.js, MongoDB,",
         preview: "www.envato.com",
         link: "https://www.envato.com/",
       },

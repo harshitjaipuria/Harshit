@@ -11,7 +11,7 @@ import Image9 from "../../../public/assets/img/portfolio/project-9.jpg";
 const PortfolioData = [
   {
     id: 1,
-    type: "mockup project",
+    type: "",
     image: Image1,
     tag: ["mockup"],
     delayAnimation: "0",

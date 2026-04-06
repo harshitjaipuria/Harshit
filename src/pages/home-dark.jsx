@@ -80,7 +80,7 @@ const HomeDark = () => {
                 data-aos-duration="1200"
               >
                 <h1>
-                  my <span>portfolio</span>
+                  my <span>Projects</span>
                 </h1>
                 <span className="title-bg">works</span>
               </div>

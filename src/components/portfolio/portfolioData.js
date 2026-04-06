@@ -11,7 +11,7 @@ import Image9 from "../../../public/assets/img/portfolio/project-9.jpg";
 const PortfolioData = [
   {
     id: 1,
-    type: "CVIS - AI based Digital Attendance System",
+    type: "CVIS",
     image: Image1,
     tag: ["Machine Learning"],
     delayAnimation: "0",

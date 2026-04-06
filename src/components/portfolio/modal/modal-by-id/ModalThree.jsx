@@ -7,10 +7,12 @@ import "slick-carousel/slick/slick-theme.css";
 // internal
 import CloseImg from "../../../../../public/assets/img/cancel.svg";
 import PortfolioData from '../../portfolioData';
-import img1 from "../../../../../public/assets/img/portfolio/project-1.jpg";
-import img2 from "../../../../../public/assets/img/portfolio/project-2.jpg";
-import img3 from "../../../../../public/assets/img/portfolio/project-4.jpg";
-import img4 from "../../../../../public/assets/img/portfolio/project-5.jpg";
+import img1 from "../../../../../public/assets/img/portfolio/project3/1.jpg";
+import img2 from "../../../../../public/assets/img/portfolio/project3/2.jpg";
+import img3 from "../../../../../public/assets/img/portfolio/project3/3.jpg";
+import img4 from "../../../../../public/assets/img/portfolio/project3/4.jpg";
+import img5 from "../../../../../public/assets/img/portfolio/project3/5.jpg";
+import img6 from "../../../../../public/assets/img/portfolio/project3/6.jpg";
 
 const ModalThree = ({modalId,setGetModal}) => {
   let settings = {
@@ -46,7 +48,7 @@ const ModalThree = ({modalId,setGetModal}) => {
                         </div>
                         <div className="col-12 col-sm-6 mb-2">
                           <i className="fa fa-user-o pr-2"></i>
-                          Client :{" "}
+                          About :{" "}
                           <span className="ft-wt-600 uppercase">
                             {details.client}
                           </span>
@@ -77,9 +79,6 @@ const ModalThree = ({modalId,setGetModal}) => {
                 <figure className="modal__img">
                   <Slider {...settings}>
                     <div>
-                      <Image src={item.image} alt="portfolio project demo" />
-                    </div>
-                    <div>
                       <Image src={img1} alt="portfolio project demo" />
                     </div>
                     <div>
@@ -90,6 +89,12 @@ const ModalThree = ({modalId,setGetModal}) => {
                     </div>
                     <div>
                       <Image src={img4} alt="portfolio project demo" />
+                    </div>
+                    <div>
+                      <Image src={img5} alt="portfolio project demo" />
+                    </div>
+                    <div>
+                      <Image src={img6} alt="portfolio project demo" />
                     </div>
                   </Slider>
                 </figure>

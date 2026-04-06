@@ -34,7 +34,7 @@ const PortfolioData = [
     modalDetails: [
       {
         project: "Lemin AI - RCS Business Messaging SaaS Platform",
-        client: "Internship Project",
+        client : "Internship Project",
         language: "Next.js, Node.js, MySQL, Tailwind CSS, React.js, TypeScript",
         preview: "leminai.com/rcs",
         link: "https://leminai.com/rcs/",
@@ -43,17 +43,17 @@ const PortfolioData = [
   },
   {
     id: 3,
-    type: "slider project",
+    type: "Entrepreneurship Cell",
     image: Image3,
     tag: [],
     delayAnimation: "200",
     modalDetails: [
       {
-        project: "Website",
-        client: "Themeforest",
-        language: " HTML, CSS, Javascript",
-        preview: "www.envato.com",
-        link: "https://www.envato.com",
+        project: "Entrepreneurship Cell - Website",
+        client: "College Website",
+        language: "Next.js, Node.js, Tailwind CSS, React.js, TypeScript",
+        preview: "ecellgla.com",
+        link: "https://ecellgla.com/",
       },
     ],
   },

@@ -9,6 +9,8 @@ import CloseImg from "../../../../../public/assets/img/cancel.svg";
 import PortfolioData from '../../portfolioData';
 import img1 from "../../../../../public/assets/img/portfolio/project-1.jpg";
 import img2 from "../../../../../public/assets/img/portfolio/project-2.jpg";
+import img3 from "../../../../../public/assets/img/portfolio/project-4.jpg";
+import img4 from "../../../../../public/assets/img/portfolio/project-5.jpg";
 
 const ModalThree = ({modalId,setGetModal}) => {
   let settings = {
@@ -82,6 +84,12 @@ const ModalThree = ({modalId,setGetModal}) => {
                     </div>
                     <div>
                       <Image src={img2} alt="portfolio project demo" />
+                    </div>
+                    <div>
+                      <Image src={img3} alt="portfolio project demo" />
+                    </div>
+                    <div>
+                      <Image src={img4} alt="portfolio project demo" />
                     </div>
                   </Slider>
                 </figure>

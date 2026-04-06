@@ -27,17 +27,17 @@ const PortfolioData = [
   },
   {
     id: 2,
-    type: "youtube project",
+    type: "Lemin AI - RCS",
     image: Image2,
     tag: ["video"],
     delayAnimation: "100",
     modalDetails: [
       {
-        project: "video",
-        client: "Videohive",
-        language: " Adobe After Effects",
-        preview: "www.videohive.net",
-        link: "https://www.videohive.net",
+        project: "Lemin AI - RCS Business Messaging SaaS Platform",
+        client: "Internship Project",
+        language: "Next.js, Node.js, MySQL, Tailwind CSS, React.js, TypeScript",
+        preview: "leminai.com/rcs",
+        link: "https://leminai.com/rcs/",
       },
     ],
   },

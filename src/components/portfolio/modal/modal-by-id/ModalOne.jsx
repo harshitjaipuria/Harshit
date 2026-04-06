@@ -1,9 +1,27 @@
 import Image from 'next/image';
 import React from 'react';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import CloseImg from "../../../../../public/assets/img/cancel.svg";
 import PortfolioData from '../../portfolioData';
+import img1 from "../../../../../public/assets/img/portfolio/project1/1.png";
+import img2 from "../../../../../public/assets/img/portfolio/project1/2.png";
+import img3 from "../../../../../public/assets/img/portfolio/project1/3.png";
+import img4 from "../../../../../public/assets/img/portfolio/project1/4.png";
+import img5 from "../../../../../public/assets/img/portfolio/project1/5.png";
+import img6 from "../../../../../public/assets/img/portfolio/project1/6.png";
+import img7 from "../../../../../public/assets/img/portfolio/project1/7.png";
 
 const ModalOne = ({modalId,setGetModal}) => {
+  let settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    draggable: true,
+  };
   return (
     <div className="modal_portfolio ">
         <div
@@ -58,7 +76,29 @@ const ModalOne = ({modalId,setGetModal}) => {
                   })}
                 </div>
                 <figure className="modal__img">
-                  <Image src={item.image} alt="portfolio project demo" />
+                  <Slider {...settings}>
+                    <div>
+                      <Image src={img1} alt="portfolio project demo" />
+                    </div>
+                    <div>
+                      <Image src={img2} alt="portfolio project demo" />
+                    </div>
+                    <div>
+                      <Image src={img3} alt="portfolio project demo" />
+                    </div>
+                    <div>
+                      <Image src={img4} alt="portfolio project demo" />
+                    </div>
+                    <div>
+                      <Image src={img5} alt="portfolio project demo" />
+                    </div>
+                    <div>
+                      <Image src={img6} alt="portfolio project demo" />
+                    </div>
+                    <div>
+                      <Image src={img7} alt="portfolio project demo" />
+                    </div>
+                  </Slider>
                 </figure>
 
                 <button

@@ -11,17 +11,17 @@ import Image9 from "../../../public/assets/img/portfolio/project-9.jpg";
 const PortfolioData = [
   {
     id: 1,
-    type: "CVIS",
+    type: "Attend-AI",
     image: Image1,
     tag: ["Machine Learning"],
-    delayAnimation: "0",
+    delayAnimation: "500",
     modalDetails: [
       {
-        project: "CVIS - AI based Digital Attendance System",
+        project: "Attend-AI: AI based Digital Attendance System",
         client: "Self-Project",
         language: "Python, React.js, Node.js, MongoDB,",
-        preview: "www.envato.com",
-        link: "https://www.envato.com/",
+        preview: "ai-facerecognition-attendace-bpt4.vercel.app",
+        link: "https://ai-facerecognition-attendace-bpt4.vercel.app/",
       },
     ],
   },

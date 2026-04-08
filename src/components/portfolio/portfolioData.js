@@ -59,15 +59,15 @@ const PortfolioData = [
   },
   {
     id: 4,
-    type: "local project",
+    type: "CrickGenie",
     image: Image4,
     tag: ["logo", "video"],
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "video",
-        client: "Videohive",
-        language: " Adobe After Effects",
+        project: "Hackathon Project",
+        client: "Self-Project",
+        language: "Next.js, React.js, Node.js, MongoDB, Google Cloud, Google Gemini API",
         preview: "www.videohive.net",
         link: "https://www.videohive.net",
       },

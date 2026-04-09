@@ -75,17 +75,17 @@ const PortfolioData = [
   },
   {
     id: 5,
-    type: "saas project",
+    type: "Event Website",
     image: Image5,
     tag: ["logo"],
     delayAnimation: "100",
     modalDetails: [
       {
-        project: "Web Application",
-        client: "Themeforest",
-        language: "HTML, CSS, ReactJS",
-        preview: "www.envato.com",
-        link: "https://themeforest.net/item/deski-saas-software-react-template/33799794",
+        project: "TechStars GLAU",
+        client: "Event Website",
+        language: "Next.js, React.js, Tailwind CSS, TypeScript",
+        preview: "www.techstarsglau.com",
+        link: "https://www.techstarsglau.com/",
       },
     ],
   },

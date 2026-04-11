@@ -8,7 +8,7 @@ const educationContent = [
     details: `Computer Science and Engineering (CSE) Specialization in Artificial Intelligence and Data Science`,
   },
   {
-    year: "2024",
+    year: "2023",
     degree: "12th Grade",
     institute: "Sunbeam Academy",
     details: `Central Board of Secondary Education (CBSE)`,
